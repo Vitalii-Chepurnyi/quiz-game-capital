@@ -31,7 +31,7 @@ header h1 {
     font-family: Quicksand , sans-serif;
     font-size: 40px;
     letter-spacing: 2px;
-    color: #615D6C;
+    color: #283044;
 }
 
 header button {
@@ -47,3 +47,88 @@ header button:hover {
 }
 
 
+/*----- main content image and name  -----*/
+
+.main-content {
+    position: relative;
+    margin: 20px auto;
+    max-width: 30%;
+    border: 2px solid #615D6C;
+    border-radius: 30px;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#country-img {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+
+#country-img img {
+    max-width: 65%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#country-img img:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+/*-----choices----*/
+
+#first-choices {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#first-choices button {
+    font-family: Quicksand , sans-serif;
+    font-size: 25px;
+    width: 40%;
+    line-height: 40px;
+    background-color: white;
+    border: 2px solid #6F8AB7;
+    border-radius: 20px;
+}
+
+#first-choices button:hover {
+    background-color:#a7d1eb44;
+    border-color:#89BBFE;
+    transition: 0.2s;
+}
+
+.one-choice {
+    margin-right: 20px;
+}
+
+#second-choices {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#second-choices button {
+    font-family: Quicksand , sans-serif;
+    font-size: 25px;
+    width: 40%;
+    line-height: 40px;
+    background-color: white;
+    border: 2px solid #6F8AB7;
+    border-radius: 20px;
+
+}
+
+#second-choices button:hover {
+    background-color:#a7d1eb44;
+    border-color:#89BBFE;
+    transition: 0.2s;
+}
+
+.three-choice{
+    margin-right: 20px;
+}
