@@ -180,3 +180,11 @@ header button:hover {
 #wrong {
     color: red;
 }
+
+/*------ score result ------ */
+
+#resultscore div {
+    display: inline;
+    margin: 0 7%;
+    font-size: 200%;
+}
