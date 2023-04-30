@@ -132,3 +132,28 @@ header button:hover {
 .three-choice{
     margin-right: 20px;
 }
+
+
+/*--- submit button ----*/
+
+#button-submit {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#button-submit button {
+    font-family: Quicksand , sans-serif;
+    font-size: 25px;
+    width: 30%;
+    line-height: 40px;
+    background-color: white;
+    border: 2px solid #C16E70;
+    border-radius: 20px;
+}
+
+#button-submit button:hover {
+    background-color: #6ec2903f;
+    border-color: #6EC290;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
