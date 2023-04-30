@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #CAE5FF;
+    font-family: Abel, sans-serif;
+}
+
+/*--game name and refresh button--*/
+
+header {
+    background-color: #615d6c7c;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    max-width: 30%;
+    border: 1px solid #CAE5FF;
+    border-radius: 25px;
+}
+
+header > div {
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+header button {
+    margin-left: 50px;
+    position: relative;
+    font-size: 30px;
+    background-color: #615d6c00;
+    color: white;
+}
+
+header button:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.2s;
+}
+
+
