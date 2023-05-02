@@ -14,7 +14,7 @@
             <h1><i class="fa-solid fa-mountain-city"></i>Capital Quest!</h1>
         </div>
         <div>
-            <button id="refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <button data-type="refresh" id="refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
         </div>
     </header>
 
@@ -24,17 +24,17 @@
                 <img src="assets/images/pexels-photo-13050487.jpeg" alt="city street">
             </p>
         </div>
-        <h2>Ireland</h2>
+        <h2><span id="country-name">Ireland</span></h2>
         <div id="first-choices">
-            <button class="one-choice">London</button>
-            <button class="two-choice">Lviv</button>
+            <button class="choice1">London</button>
+            <button class="choice2">Lviv</button>
         </div>
         <div id="second-choices">
-            <button class="three-choice">Paris</button>
-            <button class="four-choice">Dublin</button>
+            <button class="choice3">Paris</button>
+            <button class="choice4">Dublin</button>
         </div>
         <div id="button-submit">
-            <button class="submit">Submit</button>
+            <button data-type= "submit" class="submit">Submit</button>
         </div>
     </section>
     <section class="scoreboard">
@@ -43,8 +43,8 @@
             <i class="fa-solid fa-circle-xmark" id="wrong"></i>
         </div>
         <div id="resultscore">
-            <div>0</div>
-            <div>0</div>
+            <div><span id="score">0</span></div>
+            <div><span id="incorrect">0</span></div>
         </div>
     </section>
     <script src="https://kit.fontawesome.com/2b6682afdd.js" crossorigin="anonymous"></script>
