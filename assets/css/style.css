@@ -193,7 +193,7 @@ header button:hover {
     max-width: 10%;
     margin: 15% auto;
     font-size: 300%;
-    border: 2px solid #615D6C;
+    border: 1px solid #615D6C;
     border-radius: 20px;
 }
 
@@ -342,7 +342,7 @@ header button:hover {
 
     #start-button {
         max-width: 30%;
-        margin: 70% auto;
+        margin: 60% auto;
         font-size: 250%;
     }
 }
