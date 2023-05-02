@@ -14,11 +14,11 @@
             <h1><i class="fa-solid fa-mountain-city"></i>Capital Quest!</h1>
         </div>
         <div>
-            <button data-type="refresh" id="refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <button id="refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
         </div>
     </header>
 
-    <section class="main-content">
+    <section id="main-content" class="hide">
         <div id="country-img">
             <p>
                 <img src="assets/images/pexels-photo-13050487.jpeg" alt="city street">
@@ -37,7 +37,7 @@
             <button data-type= "next" class="submit">Next</button>
         </div>
     </section>
-    <section class="scoreboard">
+    <section class="scoreboard hide" id="scoreboard">
         <div id="resultdisplay">
             <i class="fa-solid fa-circle-check" id="correct"></i>
             <i class="fa-solid fa-circle-xmark" id="wrong"></i>
@@ -46,7 +46,9 @@
             <div><span id="score">0</span></div>
             <div><span id="incorrect">0</span></div>
         </div>
-        <div id="start-button">Start</div>
+    </section>
+    <section>
+        <div id="start-button" class="btnstart">Start</div>
     </section>
     <script src="https://kit.fontawesome.com/2b6682afdd.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
