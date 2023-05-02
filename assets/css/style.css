@@ -188,3 +188,120 @@ header button:hover {
     margin: 0 7%;
     font-size: 200%;
 }
+
+/*----- for screens with maxwidth 1500px  -----*/
+
+@media screen and (max-width:1500px){
+    header h1 {
+        font-size: 200%;
+        letter-spacing: 1px;
+    }
+
+    header button {
+        font-size: 200%;
+    }
+}
+
+/*----- for screens with maxwidth 1200px  -----*/
+
+@media screen and (max-width:1200px){
+    header h1 {
+        font-size: 170%;
+    }
+
+    header button {
+        font-size: 170%;
+    }
+}
+
+/*----- for screens with maxwidth 1050px  -----*/
+
+@media screen and (max-width:1050px){
+    header h1 {
+        font-size: 150%;
+    }
+
+    header button {
+        font-size: 150%;
+    }
+
+    .main-content h2 {
+        font-size: 150%;
+    }
+
+    #first-choices button {
+        font-size: 120%;
+        line-height: 35px;
+    }
+
+    #second-choices button {
+        font-size: 120%;
+        line-height: 35px;
+    }
+
+    #button-submit button {
+        font-size: 120%;
+        line-height: 35px;
+    }
+
+    #resultdisplay {
+        font-size: 400%;
+    }
+
+    #resultscore div {
+        font-size: 150%;
+        margin: 0 8%;
+    }
+}
+
+/*----- for screens with maxwidth 850px  -----*/
+
+@media screen and (max-width:850px){
+    header h1 {
+        font-size: 170%;
+    }
+
+    header {
+        max-width: 80%;
+    }
+
+    .main-content {
+        max-width: 80%;
+    }
+
+    #resultscore div {
+        margin: 0 10%;
+    }
+}
+
+/*----- for screens with maxwidth 800px  -----*/
+
+@media screen and (max-width:800px){
+    header {
+        max-width: 80%;
+    }
+
+    .main-content {
+        max-width: 80%;
+    }
+
+    #resultscore div {
+        margin: 0 10%;
+    }
+}
+
+/*----- for screens with maxwidth 450px  -----*/
+
+@media screen and (max-width:450px){
+    header {
+        max-width: 80%;
+    }
+
+    .main-content {
+        max-width: 80%;
+    }
+
+    #resultscore div {
+        margin: 0 14%;
+    }
+}
