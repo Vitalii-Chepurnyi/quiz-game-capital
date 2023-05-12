@@ -46,7 +46,6 @@ function selectAnswer() {
 }
 
 
-
 const questions = [
     {
         question: 'Ireland',
