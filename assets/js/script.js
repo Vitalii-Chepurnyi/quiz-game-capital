@@ -14,6 +14,10 @@ function refreshPage() {
     window.location.reload();
 }
 
+function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
 
 function startQuiz() {
     startButton.classList.add('hide');
@@ -33,11 +37,6 @@ function showQuestion(question){
     question.answers.forEach((answer, index) => {
         console.log(answerButtons[index])
         answerButtons[index]
-    //    answerButtons.innerText = answer.text
-    //     if (answer.correct) {
-    //       button.dataset.correct = answer.correct
-        // }
-
       })
 }
 
