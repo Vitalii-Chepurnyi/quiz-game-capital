@@ -30,6 +30,7 @@ function nextQuizQuestions() {
 
 function showQuestion(question){
     questionElement.innerText = question.question
+    
 }
 
 function selectAnswer() {
