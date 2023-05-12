@@ -3,7 +3,7 @@ const contentMain = document.getElementById('main-content');
 const contentScore = document.getElementById('scoreboard');
 const refreshButton = document.getElementById('refresh');
 const questionElement = document.getElementById('country');
-const answerButtons = document.getElementById('btn');
+const answerButtons = document.getElementsByClassName('answer-button');
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
 
@@ -30,12 +30,13 @@ function nextQuizQuestions() {
 
 function showQuestion(question){
     questionElement.innerText = question.question
-    question.answers.forEach(answer => {
-        
-        answerButtons.innerText = answer.text
-        if (answer.correct) {
-          button.dataset.correct = answer.correct
-        }
+    question.answers.forEach((answer, index) => {
+        console.log(answerButtons[index])
+        answerButtons[index]
+    //    answerButtons.innerText = answer.text
+    //     if (answer.correct) {
+    //       button.dataset.correct = answer.correct
+        // }
 
       })
 }
