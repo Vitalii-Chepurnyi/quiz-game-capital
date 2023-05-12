@@ -4,10 +4,14 @@ const contentScore = document.getElementById('scoreboard');
 const refreshButton = document.getElementById('refresh');
 const questionElement = document.getElementById('country');
 const answerButtons = document.getElementsByClassName('answer-button');
+const nextButton = document.getElementById('submit');
+
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
+nextButton.addEventListener('click', nextQuiz)
 
 let shuffledQuestions, currentQuestionIndex
+
 
 
 function refreshPage() {
@@ -23,22 +27,29 @@ function startQuiz() {
     startButton.classList.add('hide');
     contentMain.classList.remove('hide');
     contentScore.classList.remove('hide');
-    shuffledQuestions = questions.sort(() => Math.random() - 0.5)
-    currentQuestionIndex = 0;
     nextQuizQuestions()
 }
 
 function nextQuizQuestions() {
-    showQuestion(shuffledQuestions[currentQuestionIndex])
+    showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
 }
 
 function showQuestion(question){
     questionElement.innerText = question.question
     question.answers.forEach((answer, index) => {
-        console.log(answerButtons[index])
-        answerButtons[index]
+        const answerButton = answerButtons[index]
+
+        answerButton.innerText = answer.text;
+        if (answer.correct) {
+            answerButton.dataset.correct = answer.correct
+        }
       })
 }
+
+function nextQuiz() {
+    showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
+}
+
 
 function selectAnswer() {
 
