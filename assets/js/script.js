@@ -8,7 +8,8 @@ const nextButton = document.getElementById('submit');
 
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
-nextButton.addEventListener('click', nextQuiz)
+nextButton.addEventListener('click', nextQuiz);
+
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -51,9 +52,14 @@ function nextQuiz() {
 }
 
 
-function selectAnswer() {
 
-}
+for (let i = 0; i < answerButtons.length; i++) {
+    answerButtons[i].addEventListener('click', function() {
+         const btn = document.getElementsByClassName('answer-button');
+         
+        });
+     }
+
 
 
 const questions = [
