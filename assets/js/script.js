@@ -80,6 +80,13 @@ function nextQuiz() {
     nextQuizQuestions();
 }
 
+function enableAnswerButtons() {
+    for (let i = 0; i < answerButtons.length; i++) {
+        answerButtons[i].classList.remove('disabled');
+        answerButtons[i].addEventListener('click', handleAnswerClick);
+    }
+}
+
 
 
 for (let i = 0; i < answerButtons.length; i++) {
@@ -92,8 +99,17 @@ for (let i = 0; i < answerButtons.length; i++) {
     
 function disableAnswerButtons() {
     for (let i = 0; i < answerButtons.length; i++) {
-            answerButtons[i].disabled = true;
+            answerButtons[i].classList.add('disabled');
+            answerButtons[i].removeEventListener('click', handleAnswerClick);
     }
+}
+
+function handleAnswerClick() {
+    const selectedButton = this;
+    selectedButton.classList.add('selected');
+
+    disableAnswerButtons();
+    showNextButton();
 }
     
 function showNextButton() {
