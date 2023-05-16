@@ -11,6 +11,7 @@ const endTotalScore = document.getElementById('totalscore');
 const endFailedScore = document.getElementById('failedscore');
 const displayPassGame = document.getElementById('passendofgame');
 const displayFailedGame = document.getElementById('failedendofgame');
+const cityImage = document.getElementById('img');
 
 let score = 0;
 let incorrect = 0;
@@ -22,6 +23,9 @@ startButton.addEventListener('click', startQuiz);
 
 const questions = [
     {
+        photo: [
+            'assets/images/pexels-photo-13050487.jpeg',
+        ],
         question: 'Ireland',
         answers: [
             { text: 'Dublin', correct: true },
@@ -31,6 +35,9 @@ const questions = [
         ]
     },
     {
+        photo: [
+            'assets/images/pexels-marc-mueller-624363.jpg',
+        ],
         question: 'Germany',
         answers: [
             { text: 'Berlin', correct: true },
@@ -40,6 +47,9 @@ const questions = [
         ]
     },
     {
+        photo: [
+            'assets/images/pexels-riccardo-bertolo-8278539.jpg',
+        ],
         question: 'France',
         answers: [
             { text: 'Paris', correct: true },
@@ -49,6 +59,9 @@ const questions = [
         ]
     },
     {
+        photo: [
+            'assets/images/pexels-josh-hild-2613438.jpg',
+        ],
         question: 'Poland',
         answers: [
             { text: 'Warsaw', correct: true },
@@ -58,6 +71,9 @@ const questions = [
         ]
     },
     {
+        photo: [
+            'assets/images/pexels-enrico-perini-819764.jpg',
+        ],
         question: 'Spain',
         answers: [
             { text: 'Barcelona', correct: true },
@@ -96,6 +112,7 @@ function nextQuizQuestions() {
 }
 
 function showQuestion(question) {
+    cityImage.src = question.photo
     questionElement.innerText = question.question
     question.answers.forEach((answer, index) => {
         const answerButton = answerButtons[index]
