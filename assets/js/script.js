@@ -142,7 +142,11 @@ function endQuiz() {
     contentMain.classList.add('hide');
     contentScore.classList.add('hide');
     nextButton.disabled = true;
-    console.log('quiz ended')
+    showTotalScore();
+}
+
+function showTotalScore() {
+    alert(`Your correct answers: ${score}, Your wrong answers: ${incorrect}`)
 }
 
 nextButton.addEventListener('click', () => {
