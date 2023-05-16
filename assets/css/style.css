@@ -418,13 +418,13 @@ header button:hover {
 @media screen and (max-width:355px){
 
     header h1 {
-        font-size: 140%;
-        margin-left: 8px;
+        font-size: 125%;
+        margin-left: 5px;
     }
 
     #refresh {
-        font-size: 140%;
-        margin-right: 8px;
+        font-size: 125%;
+        margin-right: 5px;
     }
 
 }
@@ -434,7 +434,7 @@ header button:hover {
 @media screen and (max-width:320px){
 
     header h1 {
-        font-size: 120%;
+        font-size: 115%;
         margin-left: 10px;
     }
 
@@ -443,7 +443,7 @@ header button:hover {
     }
 
     #refresh {
-        font-size: 120%;
+        font-size: 115%;
         margin-right: 10px;
     }
     
