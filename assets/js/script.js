@@ -7,6 +7,10 @@ const answerButtons = document.getElementsByClassName('answer-button');
 const nextButton = document.getElementById('next');
 const incorrectElement = document.getElementById('incorrect');
 const scoreElement = document.getElementById('score');
+const endTotalScore = document.getElementById('totalscore');
+const endFailedScore = document.getElementById('failedscore');
+const displayPassGame = document.getElementById('passendofgame');
+const displayFailedGame = document.getElementById('failedendofgame');
 
 let score = 0;
 let incorrect = 0;
@@ -146,6 +150,13 @@ function endQuiz() {
 }
 
 function showTotalScore() {
+    if (score === 5) {
+        endTotalScore.innerText = score;
+        displayPassGame.style.display = "block";
+    } else {
+        endFailedScore.innerText = score;
+        displayFailedGame.style.display = "block";
+    }
     alert(`Your correct answers: ${score}, Your wrong answers: ${incorrect}`)
 }
 

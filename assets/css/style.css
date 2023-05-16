@@ -210,6 +210,23 @@ header button:hover {
     display: none;
 }
 
+#passendofgame {
+    font-size: 200%;
+    color: #00be0a;
+    text-align: center;
+    margin-top: 15%;
+    display: none;
+}
+
+#failedendofgame {
+    font-size: 200%;
+    color:rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 15%;
+    display: none;
+}
+
+
 #main-content .answer-button.correct {
     background-color: #8bc34a; 
 }
