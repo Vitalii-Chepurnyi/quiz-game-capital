@@ -4,10 +4,12 @@ const contentScore = document.getElementById('scoreboard');
 const refreshButton = document.getElementById('refresh');
 const questionElement = document.getElementById('country');
 const answerButtons = document.getElementsByClassName('answer-button');
-const nextButton = documnet.getElementById('submit');
+const nextButton = document.getElementById('submit');
+
+refreshButton.addEventListener('click', refreshPage);
 
 function refreshPage() {
-
+    window.location.reload();
 }
 
 function startQuiz() {
