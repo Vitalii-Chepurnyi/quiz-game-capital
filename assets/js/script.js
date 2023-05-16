@@ -8,6 +8,7 @@ const nextButton = document.getElementById('submit');
 
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
+nextButton.addEventListener('click', nextQuiz);
 
 const questions = [
     {
@@ -61,20 +62,24 @@ function refreshPage() {
     window.location.reload();
 }
 
+function getRandomArbitrary(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
 function startQuiz() {
     startButton.classList.add('hide');
     contentMain.classList.remove('hide');
     contentScore.classList.remove('hide');
-    console.log('startquiz')
+    nextQuizQuestions();
 }
 
 function nextQuizQuestions() {
-
+    showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
 }
 
 function showQuestion(question) {
     questionElement.innerText = question.question
-    question.answers.forEach((answers, index) => {
+    question.answers.forEach((answer, index) => {
         const answerButton = answerButtons[index]
 
         answerButton.innerText = answer.text;
@@ -85,7 +90,7 @@ function showQuestion(question) {
 }
 
 function nextQuiz() {
-
+    showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
 }
 
 function checkAnswer() {
