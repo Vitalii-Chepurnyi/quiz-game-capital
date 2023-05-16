@@ -88,6 +88,7 @@ header button:hover {
 }
 
 #first-choices button {
+    text-decoration: none;
     font-family: Quicksand , sans-serif;
     font-size: 150%;
     width: 40%;
@@ -113,6 +114,7 @@ header button:hover {
 }
 
 #second-choices button {
+    text-decoration: none;
     font-family: Quicksand , sans-serif;
     font-size: 150%;
     width: 40%;
