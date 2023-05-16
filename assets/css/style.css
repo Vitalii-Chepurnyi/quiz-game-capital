@@ -388,6 +388,19 @@ header button:hover {
     }
 }
 
+@media screen and (max-width:390px){
+
+    header h1 {
+        font-size: 140%;
+        margin-left: 10px;
+    }
+
+    #refresh {
+        font-size: 140%;
+        margin-right: 10px;
+    }
+}
+
 /*----- for screens with maxwidth 380px  -----*/
 
 @media screen and (max-width:380px){
