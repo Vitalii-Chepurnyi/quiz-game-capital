@@ -388,6 +388,8 @@ header button:hover {
     }
 }
 
+/*----- for screens with maxwidth 380px  -----*/
+
 @media screen and (max-width:380px){
 
     header h1 {
@@ -410,6 +412,24 @@ header button:hover {
         font-size: 150%;
     }
 }
+
+/*----- for screens with maxwidth 355px  -----*/
+
+@media screen and (max-width:355px){
+
+    header h1 {
+        font-size: 140%;
+        margin-left: 8px;
+    }
+
+    #refresh {
+        font-size: 140%;
+        margin-right: 8px;
+    }
+
+}
+
+/*----- for screens with maxwidth 320px  -----*/
 
 @media screen and (max-width:320px){
 
