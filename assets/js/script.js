@@ -115,35 +115,7 @@ function handleAnswerClick() {
 function showNextButton() {
     nextButton.classList.remove('hide');
 }
-    
-nextButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-       clearAnswerButtons();
-    hideNextButton();
-    
-        if (currentQuestionIndex < questions.length) {
-            showQuestion(questions[currentQuestionIndex]);
-        } else {
-            // Quiz finished, display final score or perform any other actions
-            displayScore();
-        }
-    });
-    
-    function clearAnswerButtons() {
-        for (let i = 0; i < answerButtons.length; i++) {
-            answerButtons[i].classList.remove('correct', 'wrong');
-            answerButtons[i].disabled = false;
-        }
-    }
-    
-    function hideNextButton() {
-        nextButton.classList.add('hide');
-    }
-    
-    function displayScore() {
-        // Display the final score or perform any other actions
-        console.log('Your score:', score);
-    }
+
 
 const questions = [
     {
