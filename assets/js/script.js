@@ -14,6 +14,7 @@ let incorrect = 0;
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
 
+
 const questions = [
     {
         question: 'Ireland',
@@ -86,6 +87,8 @@ function showQuestion(question) {
     questionElement.innerText = question.question
     question.answers.forEach((answer, index) => {
         const answerButton = answerButtons[index]
+        answerButton.innerText = answer.text;
+        resetAnswerButton(answerButton);
 
         answerButton.innerText = answer.text;
         if (answer.correct) {
@@ -100,10 +103,6 @@ function resetAnswerButton(answerButton) {
     answerButton.classList.remove('incorrect');
     answerButton.classList.remove('correct');
     answerButton.disabled = false;
-}
-
-function nextQuiz() {
-    showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
 }
 
 function selectAnswer(e) {
@@ -130,3 +129,8 @@ function selectAnswer(e) {
 
     nextButton.disabled = false;
 }
+
+nextButton.addEventListener('click', () => {
+    nextQuizQuestions();
+    nextButton.disabled = true;
+})
