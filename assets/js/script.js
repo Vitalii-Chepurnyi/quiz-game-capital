@@ -72,8 +72,16 @@ function nextQuizQuestions() {
 
 }
 
-function showQuestion() {
+function showQuestion(question) {
+    questionElement.innerText = question.question
+    question.answers.forEach((answers, index) => {
+        const answerButton = answerButtons[index]
 
+        answerButton.innerText = answer.text;
+        if (answer.correct) {
+            answerButton.dataset.correct = answer.correct
+        }
+    })
 }
 
 function nextQuiz() {
