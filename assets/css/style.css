@@ -399,6 +399,16 @@ header button:hover {
         font-size: 140%;
         margin-right: 10px;
     }
+
+    #passendofgame {
+        margin-top: 40%;
+        font-size: 150%;
+    }
+
+    #failedendofgame {
+        margin-top: 40%;
+        font-size: 150%;
+    }
 }
 
 /*----- for screens with maxwidth 380px  -----*/
@@ -415,15 +425,6 @@ header button:hover {
         margin-right: 10px;
     }
 
-    #passendofgame {
-        margin-top: 40%;
-        font-size: 150%;
-    }
-
-    #failedendofgame {
-        margin-top: 40%;
-        font-size: 150%;
-    }
 }
 
 /*----- for screens with maxwidth 355px  -----*/
@@ -458,6 +459,26 @@ header button:hover {
     #refresh {
         font-size: 115%;
         margin-right: 10px;
+    }
+    
+    #start-button {
+        font-size: 200%;
+    }
+
+}
+
+/*----- for screens with maxwidth 310px  -----*/
+
+@media screen and (max-width:310px){
+
+    header h1 {
+        font-size: 110%;
+        margin-left: 2px;
+    }
+
+    #refresh {
+        font-size: 110%;
+        margin-right: 5px;
     }
     
     #start-button {
