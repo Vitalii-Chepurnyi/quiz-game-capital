@@ -10,6 +10,7 @@ const scoreElement = document.getElementById('score');
 
 let score = 0;
 let incorrect = 0;
+let questionIndex = 0;
 
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
@@ -81,6 +82,13 @@ function startQuiz() {
 
 function nextQuizQuestions() {
     showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
+
+    if (questionIndex < questions.length) {
+        showQuestion(questions[questionIndex]);
+        questionIndex++;
+    } else {
+        endQuiz();
+    }
 }
 
 function showQuestion(question) {
@@ -128,6 +136,13 @@ function selectAnswer(e) {
     })
 
     nextButton.disabled = false;
+}
+
+function endQuiz() {
+    contentMain.classList.add('hide');
+    contentScore.classList.add('hide');
+    nextButton.disabled = true;
+    console.log('quiz ended')
 }
 
 nextButton.addEventListener('click', () => {
