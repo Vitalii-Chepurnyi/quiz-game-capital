@@ -4,7 +4,7 @@ const contentScore = document.getElementById('scoreboard');
 const refreshButton = document.getElementById('refresh');
 const questionElement = document.getElementById('country');
 const answerButtons = document.getElementsByClassName('answer-button');
-const nextButton = document.getElementById('submit');
+const nextButton = document.getElementById('next');
 
 refreshButton.addEventListener('click', refreshPage);
 startButton.addEventListener('click', startQuiz);
