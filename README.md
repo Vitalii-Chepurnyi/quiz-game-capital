@@ -33,3 +33,14 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/start-button.jpg)
+
+<ul>
+    <li>Main Game Content
+        <ol>
+            <li>Featured in a center of the screen.
+            <li>After you press start button the main game content will appeare.
+            <li>The content includes images, questions, answers, next button, and score.
+        </ol>
+</ul>
+
+![Alt text](assets/images/main-content.jpg)
