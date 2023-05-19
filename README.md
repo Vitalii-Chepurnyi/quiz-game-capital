@@ -7,3 +7,17 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 
 
 ![Alt text](assets/images/capital-quest.jpg)
+
+# Features
+
+<ul>
+    <li>Name of The Game and Refresh Button
+        <ol>
+            <li>Featured at the top of the page, the name of the game Capital Quest.
+            <li>To the left of the game name featured an icon that displays a city, to improve understanding the meaning of this game for a user.
+            <li>On the right near "Capital Quest" name, an icon is located that functioning as a button to refresh the page(game). When you hover over it, the icon turns red 
+            to indicate functionality for a user and to improve better user experiance.
+        </ol>
+</ul>
+
+![Alt text](assets/images/gamename-refresh.jpg)
