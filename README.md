@@ -21,3 +21,15 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/gamename-refresh.jpg)
+
+<ul>
+    <li>Start Button
+        <ol>
+            <li>Featured in a middle of the screen, a button called "Start".
+            <li>The button start created to enroll the game, so every time you restart the game you have to start it again.
+            <li>The name for this button is easy to understand and when you hover it, the button expands in size and changes its color to green
+            for better user experiance.
+        </ol>
+</ul>
+
+![Alt text](assets/images/start-button.jpg)
