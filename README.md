@@ -6,7 +6,7 @@ In "Capital Quest," you'll be presented with a series of questions, each focusin
 To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi.github.io/quiz-game-capital/)
 
 
-![Alt text](assets/images/capital-quest.jpg)
+![Alt text](assets/images/capital-quest1.jpg)
 
 # Features
 
