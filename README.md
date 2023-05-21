@@ -44,3 +44,29 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/main-content.jpg)
+
+<ul>
+    <li>Country Image
+        <ol>
+            <li>Featured on top, inside the main game content.
+            <li>These images relate directly to the country.
+            <li>It is done to improve game quality, make it more interactive and to improve overall understanding of the game.
+            <li>When you hover over the image, it expands to help the user get a better look at it.
+            <li>This feature includes 5 different images.
+            <li>Every next game the image changes, related to the question.
+        </ol>
+</ul>
+
+![Alt text](assets/images/img-main.jpg)
+
+<ul>
+    <li>Question Section
+        <ol>
+            <li>It is located right underneath the country images.
+            <li>It changes every time you answer a question that is provided there.
+            <li>It includes a list of questions for the game user like "Ireland", "Germany", "France", "Poland", "Spain".
+            <li>When you press start button, the main question appears randomly every time, along with the images and answers.
+        </ol>
+</ul>
+
+![Alt text](assets/images/question-main.jpg)
