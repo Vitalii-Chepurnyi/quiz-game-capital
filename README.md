@@ -70,3 +70,21 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/question-main.jpg)
+
+<ul>
+    <li>Answer Section
+        <ol>
+            <li>Located inside main content underneath question section.
+            <li>The answer section includes four answers.
+            <li>Each answer is created as a button.
+            <li>Also changes every quiz game related to the question.
+            <li>When you press on any answer, it automatically checks the answer related to the question.
+            <li>If you got it right the button will glow in green, if you got it wrong it will glow in red.
+            <li>There is a second feature too, when you pick a wrong answer it will show correct answer and your wrong answer, 
+            so it will help the user memorize the correct answer for next time.
+            <li>At the time when you choose your answer, the buttons will disable so you won't be able to rechoose your answer, it prevents of cheating.
+            <li>When you hover over the button it will change it color to light blue, to make it more responsive.
+        </ol>
+</ul>
+
+![Alt text](assets/images/answer-main.jpg)
