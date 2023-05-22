@@ -115,3 +115,19 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/score-main.jpg)
+
+<ul>
+    <li>Final Result Section
+        <ol>
+            <li>At the end of the game, you will get alerted about your final score of the game, at the top of the screen.
+            <li>After you pressed "okay", final result section will appeare.
+            <li>If you win you will recive this message:
+            "You Pass The Game! Your total score is: 5" this is done to congratulate the user, and show the final score he/she got.
+            <li>If you lose you will recive this message:
+            "You Failed The Game. Your total score is: 0" this is done to notify the user of his failed game, and show the total right score he/she got.
+            <li>To restart the game again, user will need to refresh the game by using refresh button provided at the top of the screen.
+            <li>When the game is refreshed you have to play from the start every time.
+        </ol>
+</ul>
+
+![Alt text](assets/images/final-main.jpg)
