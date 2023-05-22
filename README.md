@@ -131,3 +131,15 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/final-main.jpg)
+
+# Testing
+
+<ul>
+   <li>The website was viewed on all devices, including a desktop, laptop, tablet, and a few iPhone models.
+   <li>This website has been viewed and tested on Google Chrome, Opera, Mozilla Firefox, Safari and Microsoft Edge.
+   <li>Household members and friends were asked to navigate through the website and identify any bugs or improvements to be made.
+</ul>    
+
+# Lighthouse Testing
+
+![Alt text](assets/images/lighthouse-test.jpg)
