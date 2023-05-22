@@ -143,3 +143,11 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 # Lighthouse Testing
 
 ![Alt text](assets/images/lighthouse-test.jpg)
+
+# HTML Validator Testing
+
+![Alt text](assets/images/html-index.jpg)
+
+# CSS Validator Testing
+
+![Alt text](assets/images/css-main.jpg)
