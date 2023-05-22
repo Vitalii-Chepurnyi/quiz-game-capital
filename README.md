@@ -88,3 +88,17 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/answer-main.jpg)
+
+<ul>
+    <li>Next Button
+        <ol>
+            <li>Located underneath answer section.
+            <li>Created as a button.
+            <li>The purpose of this button, is that when you choose your answer you can press next button and the following game will appeare.
+            <li>But while you choosing your answer you won't be able to click next button, to prevent skiping the game to the end.
+            <li>Only when you decided on your answer the button will be clickable to skip to the next game.
+            <li>When you hover over it, the color will change to green, to make it more understandable and more responsive for the user.
+        </ol>
+</ul>
+
+![Alt text](assets/images/next-main.jpg)
