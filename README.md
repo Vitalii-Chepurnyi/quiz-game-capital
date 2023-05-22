@@ -102,3 +102,16 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 </ul>
 
 ![Alt text](assets/images/next-main.jpg)
+
+<ul>
+    <li>Score Section
+        <ol>
+            <li>Located underneath main game content.
+            <li>Two icons were created to represets "right" and "wrong" score.
+            <li>Underneath icons two "span" element were created to hold current user score.
+            <li>Every game that user answer "right" or "wrong" the score increase by one.
+            <li>This feature is created to help user keep track of his answered questions, and understand how many correct or wrong answers he/she got.
+        </ol>
+</ul>
+
+![Alt text](assets/images/score-main.jpg)
