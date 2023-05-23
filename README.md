@@ -175,8 +175,8 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 # Credits
 
 ## Icons
-    All the icons that is used on the website comes from Font Awesome. Here is the link to that website:
-   https://fontawesome.com/search?q=gym&o=r&m=free
+    All the icons that is used on the website comes from Font Awesome.
+     Here is the link to that website: https://fontawesome.com/search?q=gym&o=r&m=free
 
 ## Images
    All featured images were borrowed from Pexels. Here is the link to that website: https://www.pexels.com/
