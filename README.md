@@ -151,3 +151,32 @@ To try it yourself click on this link! [Capital-Quest](https://vitalii-chepurnyi
 # CSS Validator Testing
 
 ![Alt text](assets/images/css-main.jpg)
+
+# Deployment
+
+<ul>
+   <li>The website was deployed to GitHub. The steps to deploy are as follows:
+      <ol>
+       <li>In the GitHub repository, navigate to the Settings tab.
+       <li>Scroll down to GitHub pages and click "Pages"
+       <li>Under "Source" select "Deploy from branch"
+       <li>Under "Branch" select "main" make sure to keep it in "/root"
+       <li>Than press "Save" and the page will automatically build, and will show you the link once it was build.
+       </ol>
+</ul>
+
+# Bugs
+
+<ul>
+    <li>There was no bugs to be found, but I restart the javascript code couple of times,
+    only to choose better way of doing this game.
+</ul>
+
+# Credits
+
+## Icons
+    All the icons that is used on the website comes from Font Awesome. Here is the link to that website:
+   https://fontawesome.com/search?q=gym&o=r&m=free
+
+## Images
+   All featured images were borrowed from Pexels. Here is the link to that website: https://www.pexels.com/
