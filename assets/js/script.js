@@ -84,14 +84,28 @@ const questions = [
     }
 ]
 
+/**
+ * The function refreshPage called
+ * when refreshButton is clicked
+ */
 function refreshPage() {
     window.location.reload();
 }
 
+/**
+ * Porpuse of this function is to get a random
+ * array index from questions
+ */
 function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
+/**
+ * The function startQuiz is called by a startButton,
+ * removes it and starts the main game content,
+ * also called function nextQuizQuestions, to randomize 
+ * next game question
+ */
 function startQuiz() {
     startButton.classList.add('hide');
     contentMain.classList.remove('hide');
