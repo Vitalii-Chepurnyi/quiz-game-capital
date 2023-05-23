@@ -94,7 +94,7 @@ function refreshPage() {
 
 /**
  * Porpuse of this function is to get a random
- * array index from questions
+ * index number
  */
 function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -114,6 +114,12 @@ function startQuiz() {
     nextQuizQuestions();
 }
 
+/**
+ * The function nextQuizQuestions called by startQuiz function,
+ * to get a random question, answers, image from questions array
+ * also function endQuiz is called when all the questions were
+ * answered
+ */
 function nextQuizQuestions() {
     showQuestion(questions[getRandomArbitrary(0, questions.length - 1)]);
 
@@ -125,6 +131,12 @@ function nextQuizQuestions() {
     }
 }
 
+/**
+ * displays question, image, answers
+ * calls a function resetAnswer button
+ * calls a function selectAnswer
+ * sets data for answerButton
+ */
 function showQuestion(question) {
     cityImage.src = question.photo
     questionElement.innerText = question.question
@@ -142,12 +154,19 @@ function showQuestion(question) {
     })
 }
 
+/**
+ * disable answer buttons
+ */
 function resetAnswerButton(answerButton) {
     answerButton.classList.remove('incorrect');
     answerButton.classList.remove('correct');
     answerButton.disabled = false;
 }
 
+/**
+ * checks if the answer is correct or wrong
+ * increments score
+ */
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -173,6 +192,10 @@ function selectAnswer(e) {
     nextButton.disabled = false;
 }
 
+/**
+ * ending the game, hides maind game content
+ * calls function showTotalScore
+ */
 function endQuiz() {
     contentMain.classList.add('hide');
     contentScore.classList.add('hide');
@@ -180,6 +203,10 @@ function endQuiz() {
     showTotalScore();
 }
 
+/**
+ * displays total score,
+ * creates an alert
+ */
 function showTotalScore() {
     if (score === 5) {
         endTotalScore.innerText = score;
